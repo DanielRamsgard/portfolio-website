@@ -10,7 +10,7 @@ const Land = () => {
                     <div className="land-container-3">
                         <div className="land-container-4">
                             <div className="land-header">
-                                Full-Stack Web Development 👋🏼
+                                Full-Stack Web Development 👋 
                             </div>
                             <div className="land-text">
                                 Hi, I'm Daniel Ramsgard: an expert full-stack developer based in Syracuse, New York, USA. 
@@ -52,10 +52,13 @@ const Land = () => {
                             FastAPI + Flask
                         </div>
                         <div className="tech-stack-container-2">
-                            Python + Django
+                            Django + DynamoDB
                         </div>
                         <div className="tech-stack-container-2">
-                            AWS + 
+                            MySQL + PostgreSQL + Mongo
+                        </div>
+                        <div className="tech-stack-container-2">
+                            Mongo + AWS
                         </div>
                     </div>
                 </div>
