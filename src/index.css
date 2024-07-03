@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Mukta Malar', sans-serif;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +11,212 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(246, 246, 246, 255);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+    --box-shadow: rgba(0,0,0,.1);
+    --background-color: rgba(246, 246, 246, 255);
+    --text-color: rgba(70, 70, 70, 255);
+}
+
+.nav-container {
+    width: 100%;
+    position: fixed;
+    height: 65px;
+    margin-left: 0px;
+    box-shadow: 0px 4px 4px var(--box-shadow);
+    z-index: 1000;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container-2 {
+    width: 95%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-size: large;
+    font-weight: 800;
+    color: var(--text-color);
+    word-spacing: -1px;
+    letter-spacing: -.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+
+.nav-english {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    column-gap: 15px;
+    color: var(--text-color);
+    font-size: large;
+    font-weight: 800;
+    cursor: auto;
+}
+
+.skills, .center-container-item {
+    color: var(--text-color);
+    font-size: large;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .7s ease;
+}
+
+.skills, .center-container-item:hover {
+    transform: scale(1.02);
+}
+
+.center-container {
+    position: fixed;
+    right: 50%;
+    transform: translate(50%);
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav-logo-container {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+
+.land-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.land-container-2 {
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 100px;
+}
+
+.land-container-3 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 60px;
+}
+
+.tech-stack-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    column-gap: 5%;
+    row-gap: 3%;
+}
+
+.tech-stack-container-2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    width: 100px;
+}
+
+.land-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.land-image-container {
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.land-container-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.socials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    flex-wrap: nowrap;
+}
+
+.spacer {
+    height: 150px;
+    width: 100%;
+}
+
+.land-header {
+    font-weight: 800;
+    font-size: 60px;
+    color: var(--text-color);
+    word-spacing: 3px;
+    letter-spacing: -3px;
+}
+
+.land-text {
+    width: 450px;
+    color: var(--text-color);
+    font-size: large;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.skills {
+    cursor: auto;
+}
+
+.html {
+    color: #f97306
+}
+
+.svg {
+    width: 45px;
+    height: 45px;
+}
+
+.back {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 10%;
+    left: 10%;
+    background-color: black;
+    z-index: -1;
 }
