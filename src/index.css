@@ -131,11 +131,17 @@ code {
     column-gap: 60px;
 }
 
-.tech-stack-container {
+.tech-stack-container-half {
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
+}
+
+.tech-stack-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     column-gap: 14.4px;
     row-gap: 10px;
     flex-wrap: wrap;
