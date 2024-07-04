@@ -4,6 +4,7 @@ import useWindowWidth from "./useWindowWidth";
 
 const Land = () => {
     const width = useWindowWidth(920);
+    const widthTwo = useWindowWidth(1260);
 
     return (
         <>  
@@ -94,11 +95,11 @@ const Land = () => {
             <div className="spacer-3"></div>
             <div className="projects-container">
                 <div className="projects-container-2">
-                    <div className="project-container-3">
-                        <div className="project-image-container">
+                    <div className={widthTwo ? "project-container-4" : "project-container-3"}>
+                        <div className={widthTwo ? "project-image-container-2" : "project-image-container"}>
                             <img alt="Ecommerce" src="/static/media/commerce.png" className="project-image"></img>
                         </div>
-                        <div className="project-info-container">
+                        <div className={widthTwo ? "project-info-container-2" : "project-info-container"}>
                             <div className="title-button">
                                 Microservices E-Commerce Site
                             </div>
