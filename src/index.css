@@ -357,8 +357,6 @@ code {
     row-gap: 15px;
     width: 50%;
     height: 80%;
-    min-width: 300px; /* Set your desired minimum width */
-    max-width: 600px; /* Set your desired maximum width */
 }
 
 .project-info-container-2 {
