@@ -16,10 +16,10 @@ const Nav = () => {
                             Home
                         </div>
                         <div className="center-container-item">
-                            About
+                            Projects
                         </div>
                         <div className="center-container-item">
-                            Projects
+                            About
                         </div>
                         <div className="center-container-item">
                             Contact

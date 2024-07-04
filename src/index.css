@@ -306,16 +306,74 @@ code {
     width: 41.5%;
     box-shadow: 0px 0px 10px rgba(0,0,0,.1);
     border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .project-info-container {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    row-gap: 40px;
+    justify-content: space-between;
+    align-items: flex-start;
     width: 50%;
     height: 80%;
-    background-color: black;
+}
+
+.title-button-3, .title-button-2, .title-button {
+    font-size: large;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    height: 50px;
+    background-color: rgba(216, 20, 20, 255);
+    font-weight: 800;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: -.4px;
+    transition: .7s ease;
+    cursor: pointer;
+}
+
+.title-button-2 {
+    background-color: rgba(6, 111, 109, 255);
+}
+
+.title-button-3 {
+    background-color: rgba(235, 153, 28, 255);
+}
+
+.title-button-3:hover, .title-button-2:hover, .title-button:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 2px 5px rgba(0,0,0,.2);
+}
+
+.product-text {
+    color: var(--text-color);
+    font-size: large;
+}
+
+.about-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.about-text {
+    width: 85%;
+    color: var(--text-color);
+    font-size: large;
+    padding-bottom: 70px;
+    line-height: 40px;
 }
