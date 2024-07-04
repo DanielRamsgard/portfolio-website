@@ -184,7 +184,7 @@ const Land = () => {
             </div>
             <div className="spacer-2"></div>
             <div className="about-container">
-                <div className="spacer-3"></div>
+                <div className="spacer-2"></div>
                 <div className="projects-text-container">
                     <div className="projects-text-container-2">
                         About
@@ -192,7 +192,24 @@ const Land = () => {
                 </div>
                 <div className="spacer-3"></div>
                 <div className="about-text">
-                    I am deeply passionate about building full-stack web applications, a pursuit that has become a cornerstone of my undergraduate journey at UNC Chapel Hill. Throughout my studies, I've immersed myself in the intricacies of web development, embracing challenges and learning through hands-on experience. My exploration of microservices architecture has been particularly rewarding, allowing me to architect and refine ecommerce platforms and a dynamic travel booking site. Beyond academic projects, I've had the privilege of applying my expertise in practical settings, collaborating closely with a psychologist to develop an intricate online platform for thousands of online users. This project was pivotal, requiring not only technical proficiency but also a deep understanding of user needs and functionality. It's through these experiences that I've come to appreciate the transformative power of technology in enhancing efficiency and connectivity in diverse fields. Moving forward, I am driven by a desire to continue innovating, leveraging my skills to create impactful digital solutions that address real-world challenges with creativity and precision.    
+                    I am deeply passionate about building full-stack web applications, a pursuit that has become a cornerstone of my undergraduate journey at UNC Chapel Hill. Throughout my studies, I've immersed myself in the intricacies of web development, embracing challenges and learning through hands-on experience. My exploration of the microservices architecture has been particularly rewarding, allowing me to architect and refine ecommerce platforms and a dynamic travel booking site. Beyond academic projects, I've had the privilege of applying my expertise in practical settings, collaborating closely with a psychologist to develop an intricate online platform for thousands of online users. This project was pivotal, requiring not only technical proficiency but also a deep understanding of user needs and functionality. It's through these experiences that I've come to appreciate the transformative power of technology in enhancing efficiency and connectivity in diverse fields. Moving forward, I am driven by a desire to continue innovating, leveraging my skills to create impactful digital solutions that address real-world challenges with creativity and precision.    
+                </div>
+            </div>
+            <div className="bottom-container">
+                <div className="bottom-header">
+                    <div className="bottom-image-container">
+                        <img alt="Logo" src="/static/media/small.png" className="bottom-image" draggable="false"></img>
+                    </div>
+                    RFS Web Design
+                </div>
+                <div className="final-text final-button">
+                    Contact Now
+                </div>
+                <div className="product-text">
+                    (315)-447-8656 • dramsgard@gmail.com • Daniel.Ramsgard@unc.edu
+                </div>
+                <div>
+                    &copy; All Rights Reserved. Ramsgard Full-Stack Web Design - Daniel William Ramsgard
                 </div>
             </div>
         </>
