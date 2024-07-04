@@ -32,23 +32,33 @@ const Nav = () => {
              
              <div className="nav-container">
                 <div className="nav-container-2">
-                    <div className="nav-title">
+                    <div className="nav-title" onClick={() => {
+                        window.location.reload();
+                    }}>
                         <div className="nav-logo-container">
                             <img alt="RFS Logo" src="/static/media/logoSmall.png" className="nav-logo"></img>
                         </div>
                         RFS Web Design
                     </div>
                     <div className="center-container">
-                        <div className="center-container-item">
+                        <div className="center-container-item" onClick={() => {
+                            window.location.href = "#home";
+                        }}>
                             Home
                         </div>
-                        <div className="center-container-item">
+                        <div className="center-container-item" onClick={() => {
+                            window.location.href = "#projects";
+                        }}>
                             Projects
                         </div>
-                        <div className="center-container-item">
+                        <div className="center-container-item" onClick={() => {
+                            window.location.href = "#about";
+                        }}>
                             About
                         </div>
-                        <div className="center-container-item">
+                        <div className="center-container-item" onClick={() => {
+                            window.location.href = "#contact";
+                        }}>
                             Contact
                         </div>
                     </div>

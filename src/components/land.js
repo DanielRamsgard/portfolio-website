@@ -8,7 +8,7 @@ const Land = () => {
 
     return (
         <>  
-            {widthTwo ? <div className="spacer-5"></div> : <div className="spacer"></div>}
+            {widthTwo ? <div className="spacer-5" id="home"></div> : <div className="spacer" id="home"></div>}
             <div className="land-container">
                 <div className="land-container-2">
                     <div className="land-container-3">
@@ -86,11 +86,11 @@ const Land = () => {
                 </div>
             </div>
             {widthTwo?
-            <div className="spacer-4"></div>
+            <div className="spacer-4" id="projects"></div>
             :
             <>
             <div className="spacer"></div>
-            <div className="spacer-2"></div>
+            <div className="spacer-2" id="projects"></div>
             </>}
             <div className="projects-text-container">
                 <div className="projects-text-container-2">
@@ -109,7 +109,7 @@ const Land = () => {
                                 Microservices E-Commerce Site
                             </div>
                             <div className="product-text">
-                                Discover a superior online shopping experience with our e-commerce site. Explore a wide range of high-quality products, from electronics to fashion. Enjoy competitive prices, fast shipping, secure payments, and excellent customer service. Shop confidently with us today.
+                                Discover a superior online shopping experience with our e-commerce site. Explore a wide range of high-quality products, from electronics to furniture. Enjoy competitive prices, fast shipping, secure payments, and excellent customer service. Shop confidently with us today.
                             </div>
                             <div className="tech-stack-container">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="svg">
@@ -227,7 +227,7 @@ const Land = () => {
                 </div>
             </div>
             <div className="spacer-2"></div>
-            <div className="about-container">
+            <div className="about-container" id="about">
                 <div className="spacer-2"></div>
                 <div className="projects-text-container">
                     <div className="projects-text-container-2">
@@ -239,7 +239,7 @@ const Land = () => {
                     I am deeply passionate about building full-stack web applications, a pursuit that has become a cornerstone of my undergraduate journey at UNC Chapel Hill. Throughout my studies, I've immersed myself in the intricacies of web development, embracing challenges and learning through hands-on experience. My exploration of the microservices architecture has been particularly rewarding, allowing me to architect and refine ecommerce platforms and a dynamic travel booking site. Beyond academic projects, I've had the privilege of applying my expertise in practical settings, collaborating closely with a psychologist to develop an intricate online platform for thousands of online users. This project was pivotal, requiring not only technical proficiency but also a deep understanding of user needs and functionality. It's through these experiences that I've come to appreciate the transformative power of technology in enhancing efficiency and connectivity in diverse fields. Moving forward, I am driven by a desire to continue innovating, leveraging my skills to create impactful digital solutions that address real-world challenges with creativity and precision.    
                 </div>
             </div>
-            <div className="bottom-container">
+            <div className="bottom-container" id="contact">
                 <div className="bottom-header">
                     <div className="bottom-image-container">
                         <img alt="Logo" src="/static/media/small.png" className="bottom-image" draggable="false"></img>
