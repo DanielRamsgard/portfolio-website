@@ -8,7 +8,7 @@ const Land = () => {
 
     return (
         <>  
-            <div className="spacer"></div>
+            {widthTwo ? <div className="spacer-5"></div> : <div className="spacer"></div>}
             <div className="land-container">
                 <div className="land-container-2">
                     <div className="land-container-3">
@@ -85,8 +85,13 @@ const Land = () => {
                     </div>
                 </div>
             </div>
+            {widthTwo?
+            <div className="spacer-4"></div>
+            :
+            <>
             <div className="spacer"></div>
             <div className="spacer-2"></div>
+            </>}
             <div className="projects-text-container">
                 <div className="projects-text-container-2">
                     Projects
