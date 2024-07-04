@@ -1,23 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import useWindowWidth from "./useWindowWidth";
+import NavPage from "./navPage";
 
 const Nav = () => {
     const width = useWindowWidth(920);
+    const [nav, setNav] = useState(false);
+
+    function updateNav(nav) {
+        setNav(nav);
+    }
 
     return (
         <>
+            {nav ? <NavPage updateNav={updateNav}/> : <></>}
             {width ? 
             <>
                 <div className="nav-container">
                     <div className="nav-container-2">
                         <div className="nav-title">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" viewBox="0 0 16 16" onClick={() => {
+                                setNav(true);
+                            }}>
                                 <path d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                             </svg>
-                            <div className="nav-logo-container">
+                            <div className="nav-logo-container" onClick={() => {
+                                window.location.reload();
+                            }}>
                                 <img alt="RFS Logo" src="/static/media/logoSmall.png" className="nav-logo"></img>
                             </div>
-                            RFS Web Design
+                            <div onClick={() => {
+                                window.location.reload();
+                            }}> RFS Web Design </div>
                         </div>
                         <div className="nav-english">
                             English
