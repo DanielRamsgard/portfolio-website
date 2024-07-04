@@ -261,7 +261,7 @@ const Land = () => {
                     (315)-447-8656 • dramsgard@gmail.com • Daniel.Ramsgard@unc.edu
                 </div>
                 <div className="about-text-2">
-                    &copy; All Rights Reserved. Ramsgard Full-Stack Web Design - Daniel William Ramsgard
+                    &copy; All Rights Reserved. Ramsgard Full-Stack Web Design - Daniel William Ramsgard.
                 </div>
             </div>
         </>
