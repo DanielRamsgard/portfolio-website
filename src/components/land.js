@@ -105,11 +105,15 @@ const Land = () => {
             <div className="projects-container">
                 <div className="projects-container-2">
                     <div className={widthTwo ? "project-container-4" : "project-container-3"}>
-                        <div className={widthTwo ? "project-image-container-2" : "project-image-container"}>
+                        <div className={widthTwo ? "project-image-container-2" : "project-image-container"} onClick={() => {
+                                window.open("https://dac235ohvwvlv.cloudfront.net/", '_blank', 'noopener,noreferrer');
+                            }}>
                             <img alt="Ecommerce" src="/static/media/commerce.png" className="project-image"></img>
                         </div>
                         <div className={widthTwo ? "project-info-container-2" : "project-info-container"}>
-                            <div className="title-button">
+                            <div className="title-button" onClick={() => {
+                                window.open("https://dac235ohvwvlv.cloudfront.net/", '_blank', 'noopener,noreferrer');
+                            }}>
                                 Microservices E-Commerce Site
                             </div>
                             <div className="product-text">
@@ -140,11 +144,15 @@ const Land = () => {
                     <div className={widthTwo ? "project-container-4" : "project-container-3"}>
                         {widthTwo? 
                         <>
-                        <div className={widthTwo ? "project-image-container-2" : "project-image-container"}>
+                        <div className={widthTwo ? "project-image-container-2" : "project-image-container"} onClick={() => {
+                                window.open("https://d38aezgot1todg.cloudfront.net/", '_blank', 'noopener,noreferrer');
+                            }}>
                             <img alt="Travel Booking Site" src="/static/media/imgOne.png" className="project-image"></img>
                         </div>
                         <div className={widthTwo ? "project-info-container-2" : "project-info-container"}>
-                            <div className="title-button-2">
+                            <div className="title-button-2" onClick={() => {
+                                window.open("https://d38aezgot1todg.cloudfront.net/", '_blank', 'noopener,noreferrer');
+                            }}>
                                 Microservices Travel Booking Site
                             </div>
                             <div className="product-text">
@@ -171,7 +179,9 @@ const Land = () => {
                         :
                         <> 
                         <div className={widthTwo ? "project-info-container-2" : "project-info-container"}>
-                            <div className="title-button-2">
+                            <div className="title-button-2"  onClick={() => {
+                                window.open("https://d38aezgot1todg.cloudfront.net/", '_blank', 'noopener,noreferrer');
+                            }}>
                                 Microservices Travel Booking Site
                             </div>
                             <div className="product-text">
@@ -194,7 +204,9 @@ const Land = () => {
                             </div>
                             </div>
                         </div>
-                        <div className={widthTwo ? "project-image-container-2" : "project-image-container"}>
+                        <div className={widthTwo ? "project-image-container-2" : "project-image-container"}  onClick={() => {
+                                window.open("https://d38aezgot1todg.cloudfront.net/", '_blank', 'noopener,noreferrer');
+                            }}>
                             <img alt="Travel Booking Site" src="/static/media/imgOne.png" className="project-image"></img>
                         </div>
                         </>}
